@@ -1,0 +1,160 @@
+@media (max-width:600px) {
+
+    /*  */
+    .header__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .header-nav-logo-mv{
+        display: block;
+    }
+    .nav-home{
+        margin-left: 20px!important;
+    }
+    .nav-link{
+        margin-top: 1px;
+        margin-left: 20px;
+    }
+    .header-nav-logo{
+        display: none;
+    }
+    .header-nav-language{
+        display: none;
+    }
+
+    .header__title-color {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .header__text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.1em;
+    }
+
+    .header-button {
+        height: 54px;
+        width: 250px;
+        margin-left: 14%
+    }
+
+    .header-button__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+
+    }
+
+    .header__img-under {
+        width: 330px;
+        height: 400px;
+    }
+
+    .header__img-above {
+        width: 250px;
+        height: 360px;
+        margin-top: 50px;
+        margin-left: -300px;
+    }
+
+    .header__search {
+        width: 350px;
+        height: 54px;
+        margin-left: 5%;
+    }
+
+    .video {
+        width: 357px;
+        height: 183px
+    }
+    .swiper-button-next:after{
+        font-size: 15px!important;
+    }
+    .swiper-button-prev:after{
+        font-size: 15px!important;
+    }
+    /*  */
+    .NFT-101-swiper {
+        display: none;
+    }
+
+    .swiper-mv {
+        display: block;
+    }
+
+    .swiper-slide-mv {
+        width: 358px;
+        height: 426px;
+    }
+
+    .NFT-101-point__img {
+        width: 64px;
+        height: 64px;
+        margin-left: 15px;
+    }
+
+    .NFT-101-point__title {
+        font-size: 14px;
+    }
+
+    .NFT-101-point__text {
+        margin-top: 50px;
+    }
+
+    .NFT-101-point__line {
+        width: 350px;
+        height: 4px;
+        margin-top: 23%;
+        margin-left: 5%;
+    }
+
+    .NFT-101-point__arrow {
+        margin-left: 90%;
+    }
+
+    .NFT-101-point-container-third {
+        height: 150px;
+    }
+
+    /* // */
+    .footer__venus {
+        margin-left: 14%;
+    }
+
+    .footer__text {
+        font-size: 8px;
+        line-height: 11px;
+        margin-top: 25%;
+
+    }
+
+    .footer__title {
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 10%;
+    }
+
+    .footer__title-point {
+        font-size: 8px;
+        line-height: 11px;
+        margin-top: 5%;
+    }
+
+    .footer__icon {
+        width: 127px;
+        height: 28px;
+    }
+}
