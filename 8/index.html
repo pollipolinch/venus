@@ -1,554 +1,909 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body class="background">
+  <body class="background">
     <header class="header">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <img class="header-nav-logo-mv" src="./img/logo-nav.png" alt="">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nav-home" href="#">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">EXPLORE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">STATS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">RESOURCES</a>
-                    </li>
-                    <img class="header-nav-logo" src="./img/logo-nav.png" alt="">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CREATE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">WALLET</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">MY ACCOUNT</a>
-                    </li>
-                    <img class="header-nav-language" src="./img/язык навбар.png" alt="">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                    aria-expanded="false">EN</a>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img class="header-nav-logo-mv" src="./img/logo-nav.png" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-home" href="../index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">EXPLORE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../9 Venus 3 страница/index.html"
+                  >STATS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESOURCES</a>
+              </li>
+              <img class="header-nav-logo" src="./img/logo-nav.png" alt="" />
+              <li class="nav-item">
+                <a class="nav-link" href="#">CREATE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WALLET</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MY ACCOUNT</a>
+              </li>
+              <img
+                class="header-nav-language"
+                src="./img/язык навбар.png"
+                alt=""
+              />
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >EN</a
+                >
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">RU</a></li>
+                  <li><a class="dropdown-item" href="#">RU</a></li>
                 </ul>
-            </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        <div class="row header-container">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <h1 class="header__title">Let’s build the future <br> of digital <span
-                        class="header__title-color">economies</span> <br> together</h1>
-                <p class="header__text">Not only are we passionate about our work, we <br> enjoy the people we surround
-                    ourselves with. At <br> OpenSea, we build trust, embrace feedback, grow <br> rapidly, and love our
-                    work.</p>
-                <button class="header__button"><span class="header__button-title">View our open
-                        positions</span></button>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <img class="header__img-first" src="./img/картинка header.png" alt="">
-                <img class="header__img-second" src="./img/круги.png" alt="">
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="container">
-            <div class="row header-container__foto">
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="header-container-border">
-                        <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="header-container-border">
-                        <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                        <img class="header-container-foto-above" src="./img/header-сверху.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="header-container-border">
-                        <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                        <img class="header-container-foto-above" src="./img/header-сверху.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                    <div class="header-container-border">
-                        <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                        <img class="header-container-foto-above" src="./img/header-сверху.png" alt="">
-                    </div>
-                </div>
-            </div>
+      </nav>
+      <div class="row header-container">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <h1 class="header__title">
+            Let’s build the future <br />
+            of digital <span class="header__title-color">economies</span> <br />
+            together
+          </h1>
+          <p class="header__text">
+            Not only are we passionate about our work, we <br />
+            enjoy the people we surround ourselves with. At <br />
+            OpenSea, we build trust, embrace feedback, grow <br />
+            rapidly, and love our work.
+          </p>
+          <button class="header__button">
+            <span class="header__button-title">View our open positions</span>
+          </button>
         </div>
-        <div class="header-foto-mv">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper swiper-wrapper-mv">
-                    <div class="swiper-slide swiper-slide-mv">
-                        <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                    </div>
-                    <div class="swiper-slide swiper-slide-mv">
-                        <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                    </div>
-                    <div class="swiper-slide swiper-slide-mv">
-                        <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                    </div>
-                    <div class="swiper-slide swiper-slide-mv">
-                        <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                    </div>
-                </div>
-                <div class="swiper-button-next swiper-button-next-mv"></div>
-                <div class="swiper-button-prev swiper-button-prev-mv"></div>
-                <div class="swiper-pagination swiper-pagination-mv"></div>
-            </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+          <img
+            class="header__img-first"
+            src="./img/картинка header.png"
+            alt=""
+          />
+          <img class="header__img-second" src="./img/круги.png" alt="" />
         </div>
-
-
+      </div>
+      <div class="container">
+        <div class="row header-container__foto">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="header-container-border">
+              <img
+                class="header-container-foto"
+                src="./img/header-foto.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="header-container-border">
+              <img
+                class="header-container-foto"
+                src="./img/header-foto.png"
+                alt=""
+              />
+              <img
+                class="header-container-foto-above"
+                src="./img/header-сверху.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="header-container-border">
+              <img
+                class="header-container-foto"
+                src="./img/header-foto.png"
+                alt=""
+              />
+              <img
+                class="header-container-foto-above"
+                src="./img/header-сверху.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="header-container-border">
+              <img
+                class="header-container-foto"
+                src="./img/header-foto.png"
+                alt=""
+              />
+              <img
+                class="header-container-foto-above"
+                src="./img/header-сверху.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-foto-mv">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper swiper-wrapper-mv">
+            <div class="swiper-slide swiper-slide-mv">
+              <img
+                class="header-container-foto-mv"
+                src="./img/header-foto.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide swiper-slide-mv">
+              <img
+                class="header-container-foto-mv"
+                src="./img/header-foto.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide swiper-slide-mv">
+              <img
+                class="header-container-foto-mv"
+                src="./img/header-foto.png"
+                alt=""
+              />
+            </div>
+            <div class="swiper-slide swiper-slide-mv">
+              <img
+                class="header-container-foto-mv"
+                src="./img/header-foto.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-button-next-mv"></div>
+          <div class="swiper-button-prev swiper-button-prev-mv"></div>
+          <div class="swiper-pagination swiper-pagination-mv"></div>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="where-we-come-from">
-            <h1 class="section__title">Where we come from</h1>
-            <p class="section__text">Our team has varied backgrounds from Stanford, UC Berkeley, Georgia Tech,
-                Waterloo, San Jose State University, DePauw <br> University, and SUNY schools. We also have team members
-                who pursued other interests in lieu of a traditional college education, <br> such as signing a recording
-                deal with Universal Music Group.</p>
-            <p class="section__text">The team hails from larger, more established companies like Google and Facebook,
-                as well as smaller startups like Artsy, Lime, <br> and a hand-crafted jewelry business.</p>
-            <img class="where_from__map" src="./img/карта.png" alt="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="where_from-container__background-color">
-                            <p class="where_from-container__text">We’re always striving to <br> develop, improve, and
-                                grow as <br> a company, as a team, and as <br> individuals. We’re constantly <br>
-                                iterating, fixing, building, and <br> learning to polish and refine <br> all of our
-                                edges.</p>
-                            <img class="where_from-container__img" src="./img/container-foto.png" alt="">
-                            <h1 class="where_from-container__name">Jhon Doe</h1>
-                            <h4 class="where_from-container__description">Digital Marketing Manager</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="where_from-container__background">
-                            <p class="where_from-container__text">We’re always striving to <br> develop, improve, and
-                                grow as <br> a company, as a team, and as <br> individuals. We’re constantly <br>
-                                iterating, fixing, building, and <br> learning to polish and refine <br> all of our
-                                edges.</p>
-                            <img class="where_from-container__img" src="./img/container-foto.png" alt="">
-                            <h1 class="where_from-container__name">Jhon Doe</h1>
-                            <h4 class="where_from-container__description">Digital Marketing Manager</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="where_from-container__background">
-                            <p class="where_from-container__text">We’re always striving to <br> develop, improve, and
-                                grow as <br> a company, as a team, and as <br> individuals. We’re constantly <br>
-                                iterating, fixing, building, and <br> learning to polish and refine <br> all of our
-                                edges.</p>
-                            <img class="where_from-container__img" src="./img/container-foto.png" alt="">
-                            <h1 class="where_from-container__name">Jhon Doe</h1>
-                            <h4 class="where_from-container__description">Digital Marketing Manager</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12">
-                        <div class="where_from-container__background">
-                            <p class="where_from-container__text">We’re always striving to <br> develop, improve, and
-                                grow as <br> a company, as a team, and as <br> individuals. We’re constantly <br>
-                                iterating, fixing, building, and <br> learning to polish and refine <br> all of our
-                                edges.</p>
-                            <img class="where_from-container__img" src="./img/container-foto.png" alt="">
-                            <h1 class="where_from-container__name">Jhon Doe</h1>
-                            <h4 class="where_from-container__description">Digital Marketing Manager</h4>
-                        </div>
-                    </div>
-                </div>
+      <section class="where-we-come-from">
+        <h1 class="section__title">Where we come from</h1>
+        <p class="section__text">
+          Our team has varied backgrounds from Stanford, UC Berkeley, Georgia
+          Tech, Waterloo, San Jose State University, DePauw <br />
+          University, and SUNY schools. We also have team members who pursued
+          other interests in lieu of a traditional college education, <br />
+          such as signing a recording deal with Universal Music Group.
+        </p>
+        <p class="section__text">
+          The team hails from larger, more established companies like Google and
+          Facebook, as well as smaller startups like Artsy, Lime, <br />
+          and a hand-crafted jewelry business.
+        </p>
+        <img class="where_from__map" src="./img/карта.png" alt="" />
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="where_from-container__background-color">
+                <p class="where_from-container__text">
+                  We’re always striving to <br />
+                  develop, improve, and grow as <br />
+                  a company, as a team, and as <br />
+                  individuals. We’re constantly <br />
+                  iterating, fixing, building, and <br />
+                  learning to polish and refine <br />
+                  all of our edges.
+                </p>
+                <img
+                  class="where_from-container__img"
+                  src="./img/container-foto.png"
+                  alt=""
+                />
+                <h1 class="where_from-container__name">Jhon Doe</h1>
+                <h4 class="where_from-container__description">
+                  Digital Marketing Manager
+                </h4>
+              </div>
             </div>
-            <div class="where_from-container__background-mv">
-                <div class="row">
-                    <div class="col-4">
-                        <img class="where_from-container__img-mv" src="./img/container-foto.png" alt="">
-                        <h1 class="where_from-container__name-mv">Jhon Doe</h1>
-                    </div>
-                    <div class="col-8">
-                        <h4 class="where_from-container__description-mv">Digital Marketing Manager</h4>
-                        <p class="where_from-container__text-mv">We’re always striving to develop, <br> improve, and
-                            grow as a company, as <br> a team, and as individuals. We’re <br> constantly
-                            iterating, fixing, building,<br> and learning to polish and refine <br> all of our
-                            edges.</p>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="where_from-container__background">
+                <p class="where_from-container__text">
+                  We’re always striving to <br />
+                  develop, improve, and grow as <br />
+                  a company, as a team, and as <br />
+                  individuals. We’re constantly <br />
+                  iterating, fixing, building, and <br />
+                  learning to polish and refine <br />
+                  all of our edges.
+                </p>
+                <img
+                  class="where_from-container__img"
+                  src="./img/container-foto.png"
+                  alt=""
+                />
+                <h1 class="where_from-container__name">Jhon Doe</h1>
+                <h4 class="where_from-container__description">
+                  Digital Marketing Manager
+                </h4>
+              </div>
             </div>
-        </section>
-        <section class="our-values">
-            <h1 class="section__title">Our Values</h1>
-            <p class="section__text">Our values are at the core of our efforts to build the best platform for our users
-            </p>
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button our-values-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            <h1 class="our-values-button__title">Lorem ipsum dolor sit amet, adipiscing elit?</h1>
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <p class="our-values-button__text">We’re always striving to develop, improve, and grow as a
-                                company, as a team, and as
-                                individuals. We’re constantly iterating, fixing, building, and learning to polish and
-                                refine all of our edges.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            <h1 class="our-values-button__title">Lorem ipsum dolor sit amet, adipiscing elit?</h1>
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <p class="our-values-button__text">We’re always striving to develop, improve, and grow as a
-                                company, as a team, and as
-                                individuals. We’re constantly iterating, fixing, building, and learning to polish and
-                                refine all of our edges.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <h1 class="our-values-button__title">Lorem ipsum dolor sit amet, adipiscing elit?</h1>
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <p class="our-values-button__text">We’re always striving to develop, improve, and grow as a
-                                company, as a team, and as
-                                individuals. We’re constantly iterating, fixing, building, and learning to polish and
-                                refine all of our edges.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            <h1 class="our-values-button__title">Lorem ipsum dolor sit amet, adipiscing elit?</h1>
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <p class="our-values-button__text">We’re always striving to develop, improve, and grow as a
-                                company, as a team, and as
-                                individuals. We’re constantly iterating, fixing, building, and learning to polish and
-                                refine all of our edges.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="where_from-container__background">
+                <p class="where_from-container__text">
+                  We’re always striving to <br />
+                  develop, improve, and grow as <br />
+                  a company, as a team, and as <br />
+                  individuals. We’re constantly <br />
+                  iterating, fixing, building, and <br />
+                  learning to polish and refine <br />
+                  all of our edges.
+                </p>
+                <img
+                  class="where_from-container__img"
+                  src="./img/container-foto.png"
+                  alt=""
+                />
+                <h1 class="where_from-container__name">Jhon Doe</h1>
+                <h4 class="where_from-container__description">
+                  Digital Marketing Manager
+                </h4>
+              </div>
             </div>
-            <div class="container">
-                <div class="row our-values-container">
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="header-container-border values">
-                            <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="header-container-border values">
-                            <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                            <img class="header-container-foto-above" src="./img/header-сверху.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="header-container-border values">
-                            <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                            <img class="header-container-foto-above" src="./img/header-сверху.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                        <div class="header-container-border values">
-                            <img class="header-container-foto" src="./img/header-foto.png" alt="">
-                            <img class="header-container-foto-above" src="./img/header-сверху.png" alt="">
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+              <div class="where_from-container__background">
+                <p class="where_from-container__text">
+                  We’re always striving to <br />
+                  develop, improve, and grow as <br />
+                  a company, as a team, and as <br />
+                  individuals. We’re constantly <br />
+                  iterating, fixing, building, and <br />
+                  learning to polish and refine <br />
+                  all of our edges.
+                </p>
+                <img
+                  class="where_from-container__img"
+                  src="./img/container-foto.png"
+                  alt=""
+                />
+                <h1 class="where_from-container__name">Jhon Doe</h1>
+                <h4 class="where_from-container__description">
+                  Digital Marketing Manager
+                </h4>
+              </div>
             </div>
-            <div class="header-foto-mv our-values-mv">
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper swiper-wrapper-mv">
-                        <div class="swiper-slide swiper-slide-mv">
-                            <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                        </div>
-                        <div class="swiper-slide swiper-slide-mv">
-                            <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                        </div>
-                        <div class="swiper-slide swiper-slide-mv">
-                            <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                        </div>
-                        <div class="swiper-slide swiper-slide-mv">
-                            <img class="header-container-foto-mv" src="./img/header-foto.png" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-button-next swiper-button-next-mv"></div>
-                    <div class="swiper-button-prev swiper-button-prev-mv"></div>
-                    <div class="swiper-pagination swiper-pagination-mv"></div>
-                </div>
-            </div>
-        </section>
-        <section class="our-perks">
-            <h1 class="section__title">Our Perks</h1>
-            <p class="section__text">Employees are our number-one priority, so we like to take care of them!</p>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">
-                        <div class="our-perks-container">
-                            <div class="our-perks-container__background">
-                                <img class="our-perks-container__img" src="./img/coins.png" alt="">
-                            </div>
-                            <h5 class="our-perks-container__title">Generate Revenue</h5>
-                            <p class="our-perks-container__text">While we take pride in being the first and <br> largest
-                                marketplace and in our robust <br> feature set, we also help our partners <br> succeed
-                                with the following...</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="our-perks-container">
-                            <div class="our-perks-container__background">
-                                <img class="our-perks-container__img" src="./img/users.png" alt="">
-                            </div>
-                            <h5 class="our-perks-container__title">Reach Millions</h5>
-                            <p class="our-perks-container__text">With over thousands of users <br> and followers, we can
-                                help you <br> reach a large audience of <br> collectors</p>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="our-perks-container">
-                            <div class="our-perks-container__background">
-                                <img class="our-perks-container__img" src="./img/wallet.png" alt="">
-                            </div>
-                            <h5 class="our-perks-container__title">Spend Less</h5>
-                            <p class="our-perks-container__text">Compared with other NFT <br> marketplaces, we have
-                                lowest fees <br> in the space allowing you to spend <br> less with your created
-                                collection</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="our-perks-container">
-                            <div class="our-perks-container__background">
-                                <img class="our-perks-container__img" src="./img/squares.png" alt="">
-                            </div>
-                            <h5 class="our-perks-container__title">Robust Features</h5>
-                            <p class="our-perks-container__text">With the most powerful way for <br> users to buy and
-                                sell NFTS, we <br> offer the most advanced <br> features</p>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="our-perks-container">
-                            <div class="our-perks-container__background">
-                                <img class="our-perks-container__img" src="./img/image.png" alt="">
-                            </div>
-                            <h5 class="our-perks-container__title">Breadth of Categories</h5>
-                            <p class="our-perks-container__text">With over thousands of collections, <br> we are proud
-                                to host the widest <br> range of categories, ranging from <br> digital to physical NFTs
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="our-perks-mv">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="our-perks-container__background-mv">
-                            <div><img class="our-perks-container__img-mv" src="./img/coins.png" alt=""></div>
-                        </div>
-                        <h5 class="our-perks-container__title title-mv">Generate Revenue</h5>
-                        <p class="our-perks-container__text text-mv">While we take pride in being the first and largest
-                            marketplace and in our robust feature set, we also help our partners succeed
-                            with the following...</p>
-                    </div>
-                    <div class="swiper-slide"><div class="our-perks-container__background-mv">
-                            <div><img class="our-perks-container__img-mv" src="./img/users.png" alt=""></div>
-                        </div>
-                        <h5 class="our-perks-container__title title-mv">Reach Millions</h5>
-                        <p class="our-perks-container__text text-mv">With over thousands of users <br> and followers, we can
-                            help you <br> reach a large audience of <br> collectors</p></div>
-                    <div class="swiper-slide"><div class="our-perks-container__background-mv">
-                        <div><img class="our-perks-container__img-mv" src="./img/wallet.png" alt=""></div>
-                    </div>
-                    <h5 class="our-perks-container__title title-mv">Spend Less</h5>
-                    <p class="our-perks-container__text text-mv">Compared with other NFT <br> marketplaces, we have
-                        lowest fees <br> in the space allowing you to spend <br> less with your created
-                        collection</p></div>
-                    <div class="swiper-slide"><div class="our-perks-container__background-mv">
-                        <div><img class="our-perks-container__img-mv" src="./img/squares.png" alt=""></div>
-                    </div>
-                    <h5 class="our-perks-container__title title-mv">Robust Features</h5>
-                    <p class="our-perks-container__text text-mv">With the most powerful way for <br> users to buy and
-                        sell NFTS, we <br> offer the most advanced <br> features</p></div>
-                    <div class="swiper-slide"><div class="our-perks-container__background-mv">
-                        <div><img class="our-perks-container__img-mv" src="./img/image.png" alt=""></div>
-                    </div>
-                    <h5 class="our-perks-container__title title-mv">Breadth of Categories</h5>
-                    <p class="our-perks-container__text text-mv">With over thousands of collections, we are proud
-                        to host the widest range of categories, ranging from digital to physical NFTs</p></div>
-                </div>
-                <div class="swiper-button-next swiper-button-next-mv"></div>
-                <div class="swiper-button-prev swiper-button-prev-mv"></div>
-                <div class="swiper-pagination swiper-pagination-mv"></div>
-            </div>
+          </div>
         </div>
-            <div class="section__line"></div>
-        </section>
-        <section class="interested-joining">
-            <h1 class="section__title">Interested <span class="section__title-color">in joining us?</span></h1>
-            <p class="section__text">Hop aboard and view our open positions</p>
-            <button class="interested-joining-button">
-                <h4 class="interested-joining-button__title">See open roles</h4>
-            </button>
-            <div class="section__line"></div>
-            <div class="container">
-                <div class="row interested-joining-container">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <p class="interested-joining__text">OpenSea is one of the most exciting, important <br>
-                            companies in the world right now because it's <br> the portal to the new digital economy. If
-                            you're <br> interested in shaping a new business model for <br> creators, this is the team
-                            to join.</p>
-                        <h6 class="interested-joining__author">Katie Haun</h6>
-                        <h6 class="interested-joining__author-discription">CEO and Founder, Haun Ventures</h6>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <img class="interested-joining__img" src="./img/universe.png" alt="">
-                    </div>
-                </div>
+        <div class="where_from-container__background-mv">
+          <div class="row">
+            <div class="col-4">
+              <img
+                class="where_from-container__img-mv"
+                src="./img/container-foto.png"
+                alt=""
+              />
+              <h1 class="where_from-container__name-mv">Jhon Doe</h1>
             </div>
-        </section>
+            <div class="col-8">
+              <h4 class="where_from-container__description-mv">
+                Digital Marketing Manager
+              </h4>
+              <p class="where_from-container__text-mv">
+                We’re always striving to develop, <br />
+                improve, and grow as a company, as <br />
+                a team, and as individuals. We’re <br />
+                constantly iterating, fixing, building,<br />
+                and learning to polish and refine <br />
+                all of our edges.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="our-values">
+        <h1 class="section__title">Our Values</h1>
+        <p class="section__text">
+          Our values are at the core of our efforts to build the best platform
+          for our users
+        </p>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button our-values-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <h1 class="our-values-button__title">
+                  Lorem ipsum dolor sit amet, adipiscing elit?
+                </h1>
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="our-values-button__text">
+                  We’re always striving to develop, improve, and grow as a
+                  company, as a team, and as individuals. We’re constantly
+                  iterating, fixing, building, and learning to polish and refine
+                  all of our edges.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                <h1 class="our-values-button__title">
+                  Lorem ipsum dolor sit amet, adipiscing elit?
+                </h1>
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="our-values-button__text">
+                  We’re always striving to develop, improve, and grow as a
+                  company, as a team, and as individuals. We’re constantly
+                  iterating, fixing, building, and learning to polish and refine
+                  all of our edges.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                <h1 class="our-values-button__title">
+                  Lorem ipsum dolor sit amet, adipiscing elit?
+                </h1>
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="our-values-button__text">
+                  We’re always striving to develop, improve, and grow as a
+                  company, as a team, and as individuals. We’re constantly
+                  iterating, fixing, building, and learning to polish and refine
+                  all of our edges.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                <h1 class="our-values-button__title">
+                  Lorem ipsum dolor sit amet, adipiscing elit?
+                </h1>
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p class="our-values-button__text">
+                  We’re always striving to develop, improve, and grow as a
+                  company, as a team, and as individuals. We’re constantly
+                  iterating, fixing, building, and learning to polish and refine
+                  all of our edges.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row our-values-container">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="header-container-border values">
+                <img
+                  class="header-container-foto"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="header-container-border values">
+                <img
+                  class="header-container-foto"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+                <img
+                  class="header-container-foto-above"
+                  src="./img/header-сверху.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="header-container-border values">
+                <img
+                  class="header-container-foto"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+                <img
+                  class="header-container-foto-above"
+                  src="./img/header-сверху.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+              <div class="header-container-border values">
+                <img
+                  class="header-container-foto"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+                <img
+                  class="header-container-foto-above"
+                  src="./img/header-сверху.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-foto-mv our-values-mv">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper swiper-wrapper-mv">
+              <div class="swiper-slide swiper-slide-mv">
+                <img
+                  class="header-container-foto-mv"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide swiper-slide-mv">
+                <img
+                  class="header-container-foto-mv"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide swiper-slide-mv">
+                <img
+                  class="header-container-foto-mv"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+              </div>
+              <div class="swiper-slide swiper-slide-mv">
+                <img
+                  class="header-container-foto-mv"
+                  src="./img/header-foto.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-button-next-mv"></div>
+            <div class="swiper-button-prev swiper-button-prev-mv"></div>
+            <div class="swiper-pagination swiper-pagination-mv"></div>
+          </div>
+        </div>
+      </section>
+      <section class="our-perks">
+        <h1 class="section__title">Our Perks</h1>
+        <p class="section__text">
+          Employees are our number-one priority, so we like to take care of
+          them!
+        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="our-perks-container">
+                <div class="our-perks-container__background">
+                  <img
+                    class="our-perks-container__img"
+                    src="./img/coins.png"
+                    alt=""
+                  />
+                </div>
+                <h5 class="our-perks-container__title">Generate Revenue</h5>
+                <p class="our-perks-container__text">
+                  While we take pride in being the first and <br />
+                  largest marketplace and in our robust <br />
+                  feature set, we also help our partners <br />
+                  succeed with the following...
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="our-perks-container">
+                <div class="our-perks-container__background">
+                  <img
+                    class="our-perks-container__img"
+                    src="./img/users.png"
+                    alt=""
+                  />
+                </div>
+                <h5 class="our-perks-container__title">Reach Millions</h5>
+                <p class="our-perks-container__text">
+                  With over thousands of users <br />
+                  and followers, we can help you <br />
+                  reach a large audience of <br />
+                  collectors
+                </p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="our-perks-container">
+                <div class="our-perks-container__background">
+                  <img
+                    class="our-perks-container__img"
+                    src="./img/wallet.png"
+                    alt=""
+                  />
+                </div>
+                <h5 class="our-perks-container__title">Spend Less</h5>
+                <p class="our-perks-container__text">
+                  Compared with other NFT <br />
+                  marketplaces, we have lowest fees <br />
+                  in the space allowing you to spend <br />
+                  less with your created collection
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="our-perks-container">
+                <div class="our-perks-container__background">
+                  <img
+                    class="our-perks-container__img"
+                    src="./img/squares.png"
+                    alt=""
+                  />
+                </div>
+                <h5 class="our-perks-container__title">Robust Features</h5>
+                <p class="our-perks-container__text">
+                  With the most powerful way for <br />
+                  users to buy and sell NFTS, we <br />
+                  offer the most advanced <br />
+                  features
+                </p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="our-perks-container">
+                <div class="our-perks-container__background">
+                  <img
+                    class="our-perks-container__img"
+                    src="./img/image.png"
+                    alt=""
+                  />
+                </div>
+                <h5 class="our-perks-container__title">
+                  Breadth of Categories
+                </h5>
+                <p class="our-perks-container__text">
+                  With over thousands of collections, <br />
+                  we are proud to host the widest <br />
+                  range of categories, ranging from <br />
+                  digital to physical NFTs
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-perks-mv">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="our-perks-container__background-mv">
+                  <div>
+                    <img
+                      class="our-perks-container__img-mv"
+                      src="./img/coins.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h5 class="our-perks-container__title title-mv">
+                  Generate Revenue
+                </h5>
+                <p class="our-perks-container__text text-mv">
+                  While we take pride in being the first and largest marketplace
+                  and in our robust feature set, we also help our partners
+                  succeed with the following...
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-perks-container__background-mv">
+                  <div>
+                    <img
+                      class="our-perks-container__img-mv"
+                      src="./img/users.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h5 class="our-perks-container__title title-mv">
+                  Reach Millions
+                </h5>
+                <p class="our-perks-container__text text-mv">
+                  With over thousands of users <br />
+                  and followers, we can help you <br />
+                  reach a large audience of <br />
+                  collectors
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-perks-container__background-mv">
+                  <div>
+                    <img
+                      class="our-perks-container__img-mv"
+                      src="./img/wallet.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h5 class="our-perks-container__title title-mv">Spend Less</h5>
+                <p class="our-perks-container__text text-mv">
+                  Compared with other NFT <br />
+                  marketplaces, we have lowest fees <br />
+                  in the space allowing you to spend <br />
+                  less with your created collection
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-perks-container__background-mv">
+                  <div>
+                    <img
+                      class="our-perks-container__img-mv"
+                      src="./img/squares.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h5 class="our-perks-container__title title-mv">
+                  Robust Features
+                </h5>
+                <p class="our-perks-container__text text-mv">
+                  With the most powerful way for <br />
+                  users to buy and sell NFTS, we <br />
+                  offer the most advanced <br />
+                  features
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-perks-container__background-mv">
+                  <div>
+                    <img
+                      class="our-perks-container__img-mv"
+                      src="./img/image.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h5 class="our-perks-container__title title-mv">
+                  Breadth of Categories
+                </h5>
+                <p class="our-perks-container__text text-mv">
+                  With over thousands of collections, we are proud to host the
+                  widest range of categories, ranging from digital to physical
+                  NFTs
+                </p>
+              </div>
+            </div>
+            <div class="swiper-button-next swiper-button-next-mv"></div>
+            <div class="swiper-button-prev swiper-button-prev-mv"></div>
+            <div class="swiper-pagination swiper-pagination-mv"></div>
+          </div>
+        </div>
+        <div class="section__line"></div>
+      </section>
+      <section class="interested-joining">
+        <h1 class="section__title">
+          Interested <span class="section__title-color">in joining us?</span>
+        </h1>
+        <p class="section__text">Hop aboard and view our open positions</p>
+        <button class="interested-joining-button">
+          <h4 class="interested-joining-button__title">See open roles</h4>
+        </button>
+        <div class="section__line"></div>
+        <div class="container">
+          <div class="row interested-joining-container">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+              <p class="interested-joining__text">
+                OpenSea is one of the most exciting, important <br />
+                companies in the world right now because it's <br />
+                the portal to the new digital economy. If you're <br />
+                interested in shaping a new business model for <br />
+                creators, this is the team to join.
+              </p>
+              <h6 class="interested-joining__author">Katie Haun</h6>
+              <h6 class="interested-joining__author-discription">
+                CEO and Founder, Haun Ventures
+              </h6>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+              <img
+                class="interested-joining__img"
+                src="./img/universe.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+            <img class="footer__img" src="./img/V.png" alt="" />
+            <h1 class="footer__venus">Venus</h1>
+            <p class="footer__text">
+              The world’s best and largest digital marketplace <br />
+              for crypto collectibles and non-fungible <br />
+              tokens (NFTs). Buy, sell, and discover exclusive digital <br />
+              items.
+            </p>
+            <img class="footer__icon" src="./img/иконки.png" alt="" />
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                    <img class="footer__img" src="./img/V.png" alt="">
-                    <h1 class="footer__venus">Venus</h1>
-                    <p class="footer__text">The world’s best and largest digital marketplace <br>
-                        for crypto collectibles and non-fungible <br>
-                        tokens (NFTs). Buy, sell, and discover exclusive digital <br>
-                        items.</p>
-                    <img class="footer__icon" src="./img/иконки.png" alt="">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title">my account</h3>
-                            <h3 class="footer__title-point">authors</h3>
-                            <h3 class="footer__title-point">collection</h3>
-                            <h3 class="footer__title-point">authors profile</h3>
-                            <h3 class="footer__title-point">create collection</h3>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title">my account</h3>
-                            <h3 class="footer__title-point">authors</h3>
-                            <h3 class="footer__title-point">collection</h3>
-                            <h3 class="footer__title-point">authors profile</h3>
-                            <h3 class="footer__title-point">create collection</h3>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title footer__title-mv">resources</h3>
-                            <h3 class="footer__title-point">help & support</h3>
-                            <h3 class="footer__title-point">live auctions</h3>
-                            <h3 class="footer__title-point">item details</h3>
-                            <h3 class="footer__title-point">activity</h3>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title footer__title-mv">company</h3>
-                            <h3 class="footer__title-point">about us</h3>
-                            <h3 class="footer__title-point">contact us</h3>
-                            <h3 class="footer__title-point">our blog</h3>
-                            <h3 class="footer__title-point">discover</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                    <h3 class="footer__title-end">subscribe us</h3>
-                    <div class="footer__input">
-                        <input type="text" class="search__input" placeholder="User@yourmail.com">
-                        <div class="search__icon">
-                            <img class="footer__input-img" src="./img/кнопка.png" alt="">
-                        </div>
-                    </div>
-                </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title">my account</h3>
+                <h3 class="footer__title-point">authors</h3>
+                <h3 class="footer__title-point">collection</h3>
+                <h3 class="footer__title-point">authors profile</h3>
+                <h3 class="footer__title-point">create collection</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title">my account</h3>
+                <h3 class="footer__title-point">authors</h3>
+                <h3 class="footer__title-point">collection</h3>
+                <h3 class="footer__title-point">authors profile</h3>
+                <h3 class="footer__title-point">create collection</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title footer__title-mv">resources</h3>
+                <h3 class="footer__title-point">help & support</h3>
+                <h3 class="footer__title-point">live auctions</h3>
+                <h3 class="footer__title-point">item details</h3>
+                <h3 class="footer__title-point">activity</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title footer__title-mv">company</h3>
+                <h3 class="footer__title-point">about us</h3>
+                <h3 class="footer__title-point">contact us</h3>
+                <h3 class="footer__title-point">our blog</h3>
+                <h3 class="footer__title-point">discover</h3>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+            <h3 class="footer__title-end">subscribe us</h3>
+            <div class="footer__input">
+              <input
+                type="text"
+                class="search__input"
+                placeholder="User@yourmail.com"
+              />
+              <div class="search__icon">
+                <img class="footer__input-img" src="./img/кнопка.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
     </script>
-</body>
-
+  </body>
 </html>

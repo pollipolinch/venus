@@ -1,371 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./media.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body class="background">
+  <body class="background">
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <img class="header-nav-logo-mv" src="./img/logo-nav.png" alt="">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link nav-home" href="#">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">EXPLORE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">STATS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">RESOURCES</a>
-                        </li>
-                        <img class="header-nav-logo" src="./img/logo-nav.png" alt="">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">CREATE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">WALLET</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">MY ACCOUNT</a>
-                        </li>
-                        <img class="header-nav-language" src="./img/язык навбар.png" alt="">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">EN</a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">RU</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <img class="header-img" src="./img/header-img.png" alt="">
-        <div class="header">
-            <img class="header-logo" src="./img/azuki-logo.png" alt="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img class="header-nav-logo-mv" src="./img/logo-nav.png" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-home" href="../index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../8/index.html">EXPLORE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">STATS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">RESOURCES</a>
+              </li>
+              <img class="header-nav-logo" src="./img/logo-nav.png" alt="" />
+              <li class="nav-item">
+                <a class="nav-link" href="#">CREATE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">WALLET</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MY ACCOUNT</a>
+              </li>
+              <img
+                class="header-nav-language"
+                src="./img/язык навбар.png"
+                alt=""
+              />
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-expanded="false"
+                  >EN</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">RU</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <img class="header-img" src="./img/header-img.png" alt="" />
+      <div class="header">
+        <img class="header-logo" src="./img/azuki-logo.png" alt="" />
+      </div>
     </header>
     <main>
-        <section class="azuki">
-            <h1 class="azuki-title">Azuki</h1>
-            <p class="azuki-text">By <span class="azuki-text-team">TeamAzuki</span></p>
-            <div class="azuki-text-center">
-                <h1 class="azuki-text-center__title"><img class="azuki-text-center__img" src="./img/azuki-icon.png"
-                        alt="">unnamed</h1>
-                <h1 class="azuki-text-center__title-second">Joined september 2022</h1>
+      <section class="azuki">
+        <h1 class="azuki-title">Azuki</h1>
+        <p class="azuki-text">
+          By <span class="azuki-text-team">TeamAzuki</span>
+        </p>
+        <div class="azuki-text-center">
+          <h1 class="azuki-text-center__title">
+            <img
+              class="azuki-text-center__img"
+              src="./img/azuki-icon.png"
+              alt=""
+            />unnamed
+          </h1>
+          <h1 class="azuki-text-center__title-second">Joined september 2022</h1>
+        </div>
+        <nav class="nav">
+          <a class="nav-link active azuki-menu" aria-current="page" href="#"
+            >Collected</a
+          >
+          <a class="nav-link azuki-menu" href="#">Created</a>
+          <a class="nav-link azuki-menu" href="#">Favorited</a>
+          <a class="nav-link azuki-menu menu-mv" href="#">Activity</a>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link azuki-menu dropdown-toggle menu-mv"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </nav>
+        <div class="azuki-line"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-12 mv">
+              <div class="azuki-block-img">
+                <img class="azuki-filter" src="./img/filter.png" alt="" />
+              </div>
+              <div class="azuki-seach">
+                <img
+                  class="azuki-seach__img"
+                  src="./img/seach-img.png"
+                  alt=""
+                />
+                <div class="azuki-seach__line"></div>
+                <input
+                  class="azuki-seach__input"
+                  type="text"
+                  placeholder="SEARCH BY COLLECTION, NFT OR USER"
+                />
+              </div>
             </div>
-            <nav class="nav">
-                <a class="nav-link active azuki-menu" aria-current="page" href="#">Collected</a>
-                <a class="nav-link azuki-menu" href="#">Created</a>
-                <a class="nav-link azuki-menu" href="#">Favorited</a>
-                <a class="nav-link azuki-menu menu-mv" href="#">Activity</a>
-                <li class="nav-item dropdown">
-                    <a class="nav-link azuki-menu dropdown-toggle menu-mv" href="#" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        More
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </nav>
-            <div class="azuki-line"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-7 col-sm-12 col-12 mv">
-                        <div class="azuki-block-img"><img class="azuki-filter" src="./img/filter.png" alt=""></div>
-                        <div class="azuki-seach">
-                            <img class="azuki-seach__img" src="./img/seach-img.png" alt="">
-                            <div class="azuki-seach__line"></div>
-                            <input class="azuki-seach__input" type="text"
-                                placeholder="SEARCH BY COLLECTION, NFT OR USER">
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 col-12 mv">
-                        <select class="azuki-select" name="price">
-                            <option value="price1">price low to high</option>
-                            <option value="price2">price low to high</option>
-                            <option value="price3">price low to high</option>
-                        </select>
-                        <button class="azuki-button">
-                            <div class="azuki-button-img"> <img src="./img/button-color.png" alt=""></div>
-                        </button>
-                    </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-12 mv">
+              <select class="azuki-select" name="price">
+                <option value="price1">price low to high</option>
+                <option value="price2">price low to high</option>
+                <option value="price3">price low to high</option>
+              </select>
+              <button class="azuki-button">
+                <div class="azuki-button-img">
+                  <img src="./img/button-color.png" alt="" />
                 </div>
+              </button>
             </div>
-            <div class="container azuki-container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-mv">
-                        <div class="row container-status">
-                            <h6 class="azuki-container__title">Status</h6>
-                            <div class="col-6">
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        NEW
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckChecked">
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        BUY NOW
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        ON AUCTION
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        HAS OFFERS
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-line"></div>
-                        <div class="container-price">
-                            <h6 class="azuki-container__title">Price</h6>
-                            <p class="container-price__text">Currency: ETH</p>
-                            <div class="container-price-input">
-                                <input class="container-price__input-min" type="text" placeholder="MIN">
-                                <p class="container-price__to">TO</p>
-                                <input class="container-price__input-min" type="text" placeholder="MAX">
-                            </div>
-                        </div>
-                        <div class="container-line"></div>
-                        <div class="container-quantity">
-                            <h6 class="azuki-container__title">Quantity</h6>
-                            <div class="form-check">
-                                <input class="form-check-input check" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    All items
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input check" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                    Simgle items
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input check" type="radio" name="flexRadioDefault"
-                                    id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                    Bundles
-                                </label>
-                            </div>
-                        </div>
-                        <div class="container-line"></div>
-                        <div class="row container-status">
-                            <h6 class="azuki-container__title">Currency</h6>
-                            <div class="col-6">
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Eth
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckChecked">
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        USDC
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Dai
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input check-box" type="checkbox" value=""
-                                        id="flexCheckChecked" checked>
-                                    <label class="form-check-label" for="flexCheckChecked">
-                                        Eth
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-line"></div>
-                        <div class="container-category">
-                            <h6 class="azuki-container__title">Category</h6>
-                            <button class="container-category-button">
-                                <h6 class="container-category-button__title">all</h6>
-                            </button>
-                            <button class="container-category-button button-margin">
-                                <h6 class="container-category-button__title">Collectibles</h6>
-                            </button> <br>
-                            <button class="container-category-button">
-                                <h6 class="container-category-button__title">Photography</h6>
-                            </button>
-                            <button class="container-category-button button-margin">
-                                <h6 class="container-category-button__title">Music</h6>
-                            </button> <br>
-                            <button class="container-category-button">
-                                <h6 class="container-category-button__title">Art</h6>
-                            </button>
-                            <button class="container-category-button button-margin">
-                                <h6 class="container-category-button__title">Trading Card</h6>
-                            </button> <br>
-                            <button class="container-category-button">
-                                <h6 class="container-category-button__title">Virtual Worlds</h6>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-12 col-12">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-1.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-2.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-3.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-4.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-1.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-2.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-3.png" alt=""></div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-6"><img class="azuki-container__img"
-                                    src="./img/img-4.png" alt=""></div>
-                            <div class="azuki-container-loading">
-                                <div class="d-flex">
-                                    <div class="spinner-border" role="status">
-                                        <span class="visually-hidden">Loading...</span>
-                                    </div>
-                                    <h6 class="azuki-container-loading__title">Loading</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+          </div>
+        </div>
+        <div class="container azuki-container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12 col-12 col-mv">
+              <div class="row container-status">
+                <h6 class="azuki-container__title">Status</h6>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      NEW
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckChecked"
+                    />
+                    <label class="form-check-label" for="flexCheckChecked">
+                      BUY NOW
+                    </label>
+                  </div>
                 </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      ON AUCTION
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckChecked"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexCheckChecked">
+                      HAS OFFERS
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="container-line"></div>
+              <div class="container-price">
+                <h6 class="azuki-container__title">Price</h6>
+                <p class="container-price__text">Currency: ETH</p>
+                <div class="container-price-input">
+                  <input
+                    class="container-price__input-min"
+                    type="text"
+                    placeholder="MIN"
+                  />
+                  <p class="container-price__to">TO</p>
+                  <input
+                    class="container-price__input-min"
+                    type="text"
+                    placeholder="MAX"
+                  />
+                </div>
+              </div>
+              <div class="container-line"></div>
+              <div class="container-quantity">
+                <h6 class="azuki-container__title">Quantity</h6>
+                <div class="form-check">
+                  <input
+                    class="form-check-input check"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    All items
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input check"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault1"
+                  />
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Simgle items
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input check"
+                    type="radio"
+                    name="flexRadioDefault"
+                    id="flexRadioDefault2"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Bundles
+                  </label>
+                </div>
+              </div>
+              <div class="container-line"></div>
+              <div class="row container-status">
+                <h6 class="azuki-container__title">Currency</h6>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Eth
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckChecked"
+                    />
+                    <label class="form-check-label" for="flexCheckChecked">
+                      USDC
+                    </label>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckDefault"
+                    />
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Dai
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input check-box"
+                      type="checkbox"
+                      value=""
+                      id="flexCheckChecked"
+                      checked
+                    />
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Eth
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="container-line"></div>
+              <div class="container-category">
+                <h6 class="azuki-container__title">Category</h6>
+                <button class="container-category-button">
+                  <h6 class="container-category-button__title">all</h6>
+                </button>
+                <button class="container-category-button button-margin">
+                  <h6 class="container-category-button__title">Collectibles</h6>
+                </button>
+                <br />
+                <button class="container-category-button">
+                  <h6 class="container-category-button__title">Photography</h6>
+                </button>
+                <button class="container-category-button button-margin">
+                  <h6 class="container-category-button__title">Music</h6>
+                </button>
+                <br />
+                <button class="container-category-button">
+                  <h6 class="container-category-button__title">Art</h6>
+                </button>
+                <button class="container-category-button button-margin">
+                  <h6 class="container-category-button__title">Trading Card</h6>
+                </button>
+                <br />
+                <button class="container-category-button">
+                  <h6 class="container-category-button__title">
+                    Virtual Worlds
+                  </h6>
+                </button>
+              </div>
             </div>
-        </section>
+            <div class="col-lg-9 col-md-9 col-sm-12 col-12">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                  <img
+                    class="azuki-container__img"
+                    src="./img/img-4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="azuki-container-loading">
+                  <div class="d-flex">
+                    <div class="spinner-border" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <h6 class="azuki-container-loading__title">Loading</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+            <img class="footer__img" src="./img/V.png" alt="" />
+            <h1 class="footer__venus">Venus</h1>
+            <p class="footer__text">
+              The world’s best and largest digital marketplace <br />
+              for crypto collectibles and non-fungible <br />
+              tokens (NFTs). Buy, sell, and discover exclusive digital <br />
+              items.
+            </p>
+            <img class="footer__icon" src="./img/иконки.png" alt="" />
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                    <img class="footer__img" src="./img/V.png" alt="">
-                    <h1 class="footer__venus">Venus</h1>
-                    <p class="footer__text">The world’s best and largest digital marketplace <br>
-                        for crypto collectibles and non-fungible <br>
-                        tokens (NFTs). Buy, sell, and discover exclusive digital <br>
-                        items.</p>
-                    <img class="footer__icon" src="./img/иконки.png" alt="">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title">my account</h3>
-                            <h3 class="footer__title-point">authors</h3>
-                            <h3 class="footer__title-point">collection</h3>
-                            <h3 class="footer__title-point">authors profile</h3>
-                            <h3 class="footer__title-point">create collection</h3>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title">my account</h3>
-                            <h3 class="footer__title-point">authors</h3>
-                            <h3 class="footer__title-point">collection</h3>
-                            <h3 class="footer__title-point">authors profile</h3>
-                            <h3 class="footer__title-point">create collection</h3>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title footer__title-mv">resources</h3>
-                            <h3 class="footer__title-point">help & support</h3>
-                            <h3 class="footer__title-point">live auctions</h3>
-                            <h3 class="footer__title-point">item details</h3>
-                            <h3 class="footer__title-point">activity</h3>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                            <h3 class="footer__title footer__title-mv">company</h3>
-                            <h3 class="footer__title-point">about us</h3>
-                            <h3 class="footer__title-point">contact us</h3>
-                            <h3 class="footer__title-point">our blog</h3>
-                            <h3 class="footer__title-point">discover</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                    <h3 class="footer__title-end">subscribe us</h3>
-                    <div class="footer__input">
-                        <input type="text" class="search__input" placeholder="User@yourmail.com">
-                        <div class="search__icon">
-                            <img class="footer__input-img" src="./img/кнопка.png" alt="">
-                        </div>
-                    </div>
-                </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title">my account</h3>
+                <h3 class="footer__title-point">authors</h3>
+                <h3 class="footer__title-point">collection</h3>
+                <h3 class="footer__title-point">authors profile</h3>
+                <h3 class="footer__title-point">create collection</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title">my account</h3>
+                <h3 class="footer__title-point">authors</h3>
+                <h3 class="footer__title-point">collection</h3>
+                <h3 class="footer__title-point">authors profile</h3>
+                <h3 class="footer__title-point">create collection</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title footer__title-mv">resources</h3>
+                <h3 class="footer__title-point">help & support</h3>
+                <h3 class="footer__title-point">live auctions</h3>
+                <h3 class="footer__title-point">item details</h3>
+                <h3 class="footer__title-point">activity</h3>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                <h3 class="footer__title footer__title-mv">company</h3>
+                <h3 class="footer__title-point">about us</h3>
+                <h3 class="footer__title-point">contact us</h3>
+                <h3 class="footer__title-point">our blog</h3>
+                <h3 class="footer__title-point">discover</h3>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+            <h3 class="footer__title-end">subscribe us</h3>
+            <div class="footer__input">
+              <input
+                type="text"
+                class="search__input"
+                placeholder="User@yourmail.com"
+              />
+              <div class="search__icon">
+                <img class="footer__input-img" src="./img/кнопка.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+      AOS.init();
+    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+      integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
